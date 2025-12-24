@@ -1,7 +1,6 @@
 #include <Arduino.h>
 
-//#define TINY_GSM_MODEM_A7670
-#define TINY_GSM_MODEM_SIM7600  // A7670 Compatible with SIM7600 AT instructions``
+#define TINY_GSM_MODEM_A7670  // A7670 Compatible with SIM7600 AT instructions 
 #define SerialMon Serial
 #define SerialAT Serial1
 #define TINY_GSM_DEBUG SerialMon
@@ -10,7 +9,7 @@
 
 #include <PubSubClient.h>
 #include <TinyGsmClient.h>
-#include <TinyGsmCommon.h>
+//#include <TinyGsmCommon.h>
 
 const char apn[] = "internet";
 const char gprsUser[] = "";
